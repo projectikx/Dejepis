@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Příklad Menu</title>
+    <style>
+        /* Základní stylování pro menu */
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        li {
+            display: inline-block;
+            position: relative;
+        }
+        li ul {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+        }
+        li:hover ul {
+            display: block;
+        }
+        li ul li {
+            display: block;
+        }
+        /* Stylování tlačítek */
+        li > a {
+            display: block;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 5px;
+        }
+        li > a:hover {
+            background-color: #0056b3;
+        }
+        li ul li > a {
+            background-color: #6c757d;
+        }
+        li ul li > a:hover {
+            background-color: #5a6268;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <!-- Menu možnosti s podmožnostmi -->
+            <li><a href="#">Možnost 1</a>
+                <ul>
+                    <li><a href="#">Podmožnost 1.1</a></li>
+                    <li><a href="#">Podmožnost 1.2</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Možnost 2</a>
+                <ul>
+                    <li><a href="#">Podmožnost 2.1</a></li>
+                    <li><a href="#">Podmožnost 2.2</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Možnost 3</a>
+                <ul>
+                    <li><a href="#">Podmožnost 3.1</a></li>
+                    <li><a href="#">Podmožnost 3.2</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Možnost 4</a>
+                <ul>
+                    <li><a href="#">Podmožnost 4.1</a></li>
+                    <li><a href="#">Podmožnost 4.2</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Možnost 5</a>
+                <ul>
+                    <li><a href="#">Podmožnost 5.1</a></li>
+                    <li><a href="#">Podmožnost 5.2</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Možnost 6</a>
+                <ul>
+                    <li><a href="#">Podmožnost 6.1</a></li>
+                    <li><a href="#">Podmožnost 6.2</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Možnost 7</a>
+                <ul>
+                    <li><a href="#">Podmožnost 7.1</a></li>
+                    <li><a href="#">Podmožnost 7.2</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Možnost 8</a>
+                <ul>
+                    <li><a href="#">Podmožnost 8.1</a></li>
+                    <li><a href="#">Podmožnost 8.2</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Možnost 9</a>
+                <ul>
+                    <li><a href="#">Podmožnost 9.1</a></li>
+                    <li><a href="#">Podmožnost 9.2</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Možnost 10</a>
+                <ul>
+                    <li><a href="#">Podmožnost 10.1</a></li>
+                    <li><a href="#">Podmožnost 10.2</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Možnost 11</a>
+                <ul>
+                    <li><a href="#">Podmožnost 11.1</a></li>
+                    <li><a href="#">Podmožnost 11.2</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Možnost 12</a>
+                <ul>
+                    <li><a href="#">Podmožnost 12.1</a></li>
+                    <li><a href="#">Podmožnost 12.2</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Možnost 13</a>
+                <ul>
+                    <li><a href="#">Podmožnost 13.1</a></li>
+                    <li><a href="#">Podmožnost 13.2</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</body>
+</html>

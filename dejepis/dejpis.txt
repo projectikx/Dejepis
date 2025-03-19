@@ -1,0 +1,66 @@
+        <div>
+            <table style="width: 100%;">
+                 <tr>                
+                    <td><a href="dejepis.html"><h3>domu</h3></a></td>
+                    <td><a href="dejepis.html"><h3>1 třída</h3></a></td>
+                    <td><a href="dejepis.html"><h3>2 třída</h3></a></td>
+                    <td><a href="dejepis.html"><h3>3 třída</h3></a></td>
+                    <td><a href="dejepis.html"><h3>4 třída</h3></a></td>
+                    <td><a href="dejepis.html"><h3>5 třída</h3></a></td>
+                    <td><a href="dejepis.html"><h3>6 třída</h3></a></td>
+                    <td><a href="7trida.html"><h3>7 třída</h3></a></td>
+                    <td><a href="dejepis.html"><h3>8 třída</h3></a></td>
+                    <td><a href="dejepis.html"><h3>9 třída</h3></a></td>
+                    <td><a href="dejepis.html"><h3>další</h3></a></td>
+                    <td><a href="dejepis.html"><h3>učitelé</h3></a></td>
+                </tr>
+            </table>
+        </div>
+
+
+
+
+
+
+ul#menu {
+	   
+    width: 1900px;
+    float: left;
+    clear:both;
+    margin: 0 0 10px 0; 
+    padding: 0;
+    list-style-type: none;
+    border-bottom: 4px solid #fc6500;
+ }
+ ul#menu li {
+    width: 7%;
+    float: left;
+    margin: 0 5px;
+    border: solid #fc6500; 
+    border-width: 1px 1px 0;
+    background: #bcb500;
+    font-weight: bold;
+    text-align:center;
+ }
+ ul#menu li 	a {
+    display: block;
+    padding: 0 0;
+    text-decoration: none;
+      color: #FFF;
+ }
+ ul#menu li a:hover {
+    background: #fc6500;
+ } 
+#menu ul ul {
+    width: 7%;
+    position: absolute;
+    left: 0; top: 2.3em;
+    visibility: hidden;
+    font-size: 90%;
+    border: none; 
+}
+#menu ul li:hover ul {
+    visibility: visible;
+}
+
+7trida.html
